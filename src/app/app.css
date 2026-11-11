@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+body {
+  background: #f3ebfc;
+  color: #2a1b40;
+  margin: 0;
+  padding: 30px 15px;
+}
+
+.resume {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px;
+  background: #f1d2ff;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(124, 58, 237, 0.1);
+}
+
+
+.intro {
+  background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+  color: #4a0669;
+  padding: 32px 24px;
+  border-radius: 18px;
+  text-align: center;
+  margin-bottom: 24px;
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.25);
+}
+
+.intro h1 {
+  margin: 0 0 8px 0;
+  color: #ffffff !important;
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.intro p, .intro a {
+  color: #e9d5ff !important;
+  font-size: 0.95rem;
+}
+
+
+section, .card, div:has(> h3), div:has(> h2) {
+  background: #f8f3fe;
+  border: 1.5px solid #e2d1f9;
+  border-radius: 18px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+section h2, section h3 {
+  color: #581c87 !important;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #e9d5ff;
+  padding-bottom: 6px;
+}
+
+section p {
+  color: #2a1b40 !important;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+
+.card span, section span, .tag {
+  display: inline-block;
+  background: #ede0fd;
+  color: #6d28d9;
+  border: 1px solid #d8b4fe;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul li {
+  background: #ffffff;
+  border: 1.5px solid #e2d1f9;
+  border-left: 4px solid #7c3aed;
+  color: #2a1b40;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+
+button {
+  background: linear-gradient(135deg, #7c3aed, #5b21b6);
+  color: #ffffff;
+  border: 0;
+  border-radius: 10px;
+  padding: 12px 26px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(124, 58, 237, 0.3);
+}
+
+button:hover {
+  background: #5b21b6;
+}
